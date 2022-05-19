@@ -13,7 +13,7 @@ upload artifacts:
   files:
     - index.html
     - appspec.yml
-    -buildspec.yml
+    - buildspec.yml
     - scripts/cleanup_files
     - scripts/install_dependencies
     - scripts/start_server
