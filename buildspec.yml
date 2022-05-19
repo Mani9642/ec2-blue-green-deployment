@@ -9,10 +9,11 @@ phases:
   post_build:
     commands:
       - cat index.html
-artifacts:
+upload artifacts:
   files:
     - index.html
     - appspec.yml
+    -buildspec.yml
     - scripts/cleanup_files
     - scripts/install_dependencies
     - scripts/start_server
