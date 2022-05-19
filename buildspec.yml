@@ -9,7 +9,7 @@ phases:
   post_build:
     commands:
       - cat index.html
- artifacts:
+artifacts:
   files:
     - index.html
     - appspec.yml
